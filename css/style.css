@@ -6,8 +6,9 @@
   
   body {
     background-color: #ffffff;
-    color: ##0f0e17;
+    color: #0f0e17;
     font-family: 'Concert One', cursive;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
   }
   
@@ -17,4 +18,70 @@
     min-width: 300px;
     margin: 0 auto;
     padding: 2em 1em;
+    font-family: 'Concert One';
+  }
+
+  .title {
+    text-align: center;
+    color: #E72C6E;
+
+  }
+
+  .title p {
+    padding: 2rem 0;
+    color: #0f0e17;
+  }
+
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .col {
+    float: left;
+    width: calc(100% / 3);
+    padding: 1rem;
+  }
+
+  .col img {
+    width: 100px;
+  }
+
+  .card {
+    color: #ffffff;
+    background-color: #100E18;
+    height: 100px;
+    width: 100%;
+    float: left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+    
+  }
+
+  .card img {
+    width: 100px;
+    height: 100px;
+    float: left;
+  }
+
+  .card h3 {
+    font-family: 'Concert One';
+    font-size: 1rem;
+    padding-bottom: 5px;
+  }
+
+  .card-text {
+    float: left;
+    width: calc(100%  - 100px);
+    height: 100px;
+    line-height: 1.5rem;
+    padding: 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  .card-text a {
+    text-decoration: none;
+    color: lightskyblue;
+
   }
